@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LQ Kiwins</title>
 
+  <!-- Import CSS -->
+  <link rel="stylesheet"
+    href="./styles/home.css">
+
   <!-- Import Bootstrap CSS -->
   <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -13,7 +17,72 @@
     crossorigin="anonymous">
 </head>
 <body>
-  
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #003366;">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.webp">
+        </a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="./pages/about.html" id="navbarDropdownMenuLink"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="./pages/about.html">History</a>
+            <a class="dropdown-item" href="#">Our Mission</a>
+            <a class="dropdown-item" href="#">Our Projects</a>
+            <a class="dropdown-item" href="#">Jet Division</a>
+            <a class="dropdown-item" href="#">Our Board</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Fall Rally</a>
+            <a class="dropdown-item" href="#">DCON</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Hour Log</a>
+            <a class="dropdown-item" href="#">Cheers</a>
+            <a class="dropdown-item" href="#">Membership Forms</a>
+            <a class="dropdown-item" href="#">Newsletters</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Recognition
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Member of the Month</a>
+            <a class="dropdown-item" href="#">Notable Alumni</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- Import Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
