@@ -1,0 +1,74 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.projects {
+  text-align: center;
+  width: 100%;
+  color: #003366;
+  font-size: 18px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Century Gothic";
+}
+
+.projects > p {
+  text-align: left;
+  padding: 0 22vw;
+}
+
+.video {
+  background-color:#C41230;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 80px;
+  color: #003366;
+}
+
+.section {
+  background-color: #fed450;
+  position: relative;
+  text-align: center;
+}
+
+.inline>* {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+p {
+  padding: 0vw;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 40px;
+}
