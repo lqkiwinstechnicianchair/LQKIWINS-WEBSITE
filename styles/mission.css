@@ -1,0 +1,85 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    line-height: 125px;
+}
+
+.mission {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 18px;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.red {
+  background-color: #c41230;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+}
+
+h1 {
+  color: #87CEEB;
+}
+
+p {
+  color: black;
+  max-width: 1000px;
+  text-align: center;
+  margin:auto;
+}
+
+.motto {
+  color: #003366;
+  font-size: 40px;
+}
+
+.title {
+  font-size: 64px;
+  color: #87CEEB;
+  font-weight: bold;
+}
+
+.goals {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto auto;
+  grid-template-columns: 240px 240px 240px 240px;
+}
+
+p {
+  color: black;
+  max-width: 1000px;
+  text-align: center;
+  margin:auto;
+}
+
+.values {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 240px 240px 240px 240px;
+}
+
+.ideals {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 240px 240px 240px;
+}
