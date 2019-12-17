@@ -9,3 +9,122 @@
     font-family: "Century Gothic";
     line-height: 125px;
 }
+
+.history {
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.section {
+  min-width: 100vw;
+  position: relative;
+  text-align: center;
+}
+
+.black {
+  background-color: #231f20;
+}
+
+.yellow {
+  background-color: #fed450;
+}
+
+.red {
+  background-color: #c41230;
+}
+
+.orange {
+  background-color: #f58025;
+}
+
+.light_blue {
+  background-color: #00aeef;
+}
+
+.navy_blue {
+  background-color: #003366;
+}
+
+p {
+  color: white;
+  font-family: "Century Gothic";
+  font-size: 18px;
+}
+
+h4 {
+  color: white;
+  font-family: "Century Gothic";
+}
+
+.left {
+  max-width: 450px;
+  position: absolute;
+  left: calc(50% - 490px);
+  text-align: left;
+  top: 120px;
+  z-index: 2;
+}
+
+.right {
+  max-width: 450px;
+  position: absolute;
+  right: calc(50% - 490px);
+  text-align: left;
+  top: 100px;
+  z-index: 2;
+  border: 5px solid white;
+}
+
+.lower-left {
+  max-width: 450px;
+  position: absolute;
+  left: calc(50% - 490px);
+  text-align: left;
+  top: 200px;
+  z-index: 2;
+}
+
+.upper-right {
+  max-width: 450px;
+  position: absolute;
+  right: calc(50% - 490px);
+  text-align: left;
+  top: 20px;
+  z-index: 2;
+}
+
+.CNH_logo {
+  max-width: 450px;
+  position: absolute;
+  right: calc(50% - 400px);
+  text-align: left;
+  top: 100px;
+  z-index: 2;
+}
+
+.key_club_logo {
+  max-width: 450px;
+  position: absolute;
+  right: calc(50% - 100px);
+  text-align: left;
+  top: 200px;
+  z-index: 2;
+}
+
+.center {
+  max-width: 450px;
+  position: absolute;
+  text-align: center;
+  right: calc(37%);
+  top: 150px;
+  z-index: 2;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+}
+
+h10 {
+  padding: 35px;
+}
