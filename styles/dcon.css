@@ -26,7 +26,7 @@ h10 {
   padding: 35px;
 }
 
-.fall_rally {
+.DCON {
   text-align: center;
   width: 100%;
   color: white;
@@ -34,30 +34,22 @@ h10 {
   background-size: 100%;
   background-repeat: no-repeat;
   font-family: "Century Gothic";
-  background-color: #3895D3;
+  background-color: #333333;
   font-weight: 100px;
-}
-
-.image {
-  padding: 25px 0px 25px 0px;
-}
-
-p {
-  text-align: left;
-  padding: 0 480px 0 480px;
 }
 
 button {
   color:white;
-  background-color: #F25278;
-  border-color: #F25278;
+  background-color: #3895D3;
+  border-color: #3895D3;
   border-width: thick;
   font-size: 24px;
   font-weight: bold;
+  padding: 10px;
 }
 
 .video {
-  background-color: #7d90aa;
+  background-color: #333333;
   color: white;
   text-align: center;
   font-size: 50px;
@@ -66,6 +58,28 @@ button {
   padding-bottom: 25px;
 }
 
+.title{
+  text-align: center;
+  font-size: 64px;
+  font-family: "Vanilla Whale";
+  background-color: #805A46;
+}
+
+p {
+  text-align: left;
+  padding: 10px 480px 10px 480px;
+}
+
 .subtitle {
-  padding-left: 480px;
+  text-align: center;
+  font-family: "Cactus Sandwich";
+  font-size: 24px;
+}
+
+.section {
+  text-align: center;
+  font-size: 50px;
+}
+.first {
+  padding-top: 25px;
 }
