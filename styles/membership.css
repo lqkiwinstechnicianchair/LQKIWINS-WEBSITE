@@ -1,0 +1,47 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.membership {
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Century Gothic";
+  font-weight: 100px;
+}
+
+.section {
+    background-color: #de1738;
+}
+
+.text {
+  padding: 25px 400px 25px 300px;
+  background-color: #fed450;
+}
