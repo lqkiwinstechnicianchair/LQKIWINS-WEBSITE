@@ -1,0 +1,40 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.hour_log {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Century Gothic";
+  background-color: #f58025;
+  font-weight: 100px;
+  padding: 25px 0px 25px 0px;
+}
