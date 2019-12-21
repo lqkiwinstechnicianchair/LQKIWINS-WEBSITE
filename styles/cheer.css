@@ -1,0 +1,46 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.cheer {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Century Gothic";
+  background-color: #de1738;
+  font-weight: 100px;
+  padding: 25px 0px 0px 0px;
+}
+
+.doc {
+  background-color: #333333;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
