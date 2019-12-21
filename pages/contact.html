@@ -8,7 +8,7 @@
 
   <!-- Import CSS -->
   <link rel="stylesheet"
-    href="/styles/newsletter.css">
+    href="/styles/contact.css">
 
   <!-- Import Bootstrap CSS -->
   <link rel="stylesheet"
@@ -73,8 +73,8 @@
             <hr>Recognition<hr>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Member of the Month</a>
-            <a class="dropdown-item" href="#">Notable Alumni</a>
+            <a class="dropdown-item" href="/pages/motm.html">Member of the Month</a>
+            <a class="dropdown-item" href="/pages/alumni.html">Notable Alumni</a>
           </div>
         </li>
         <li class="nav-item">
@@ -83,18 +83,18 @@
       </ul>
     </div>
   </nav>
-  <!-- Newsletter Page -->
-  <div class="newsletter">
-    <p class="title"> NEWSLETTERS </p>
-    <p class= "subtitle">APRIL/MAY/JUNE EDITION </p>
-    <div class="video">
-      <iframe allowfullscreen allow="fullscreen" style="border:none;width:960px;height:540px;"
-      src="//e.issuu.com/embed.html?d=april-may-june-newsletter_65d1a477fc1536&u=lqkiwins"></iframe>
-    </div>
-    <p class= "subtitle">JULY/AUGUST/SEPTEMBER EDITION </p>
-    <div class="video">
-      <iframe allowfullscreen allow="fullscreen" style="border:none;width:960px;height:540px;"
-      src="//e.issuu.com/embed.html?d=july-august-september-newsletter&u=lqkiwins"></iframe>
+  <!-- Contact Page -->
+  <div class="contact">
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <form id="contact-form" method="post" action="contact-form.php">
+        <input type="text" id="name" name="name" placeholder="Name *" required>
+        <input type="text" id="email" name="email" placeholder="Email *" required>
+        <input type="text" id="subject" name="subject" placeholder="Subject ">
+        <textarea id="message" name="message" placeholder="Message *" style="height:200px" required></textarea>
+        <button type="submit" name="submit">Submit</button>
+      </form>
     </div>
   </div>
 
