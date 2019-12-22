@@ -35,12 +35,48 @@ h10 {
   background-repeat: no-repeat;
   background-color: #0f52ba;
   font-family: "Century Gothic";
-  font-weight: 100px;
 }
 
 .section {
   display: grid;
   justify-content: space-evenly;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: 240px 240px 240px 240px;
+  grid-template-rows: auto;
+  grid-template-columns: 25px 25px 25px 25px 25px;
+  padding: 25px 200px 75px 0px;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay{
+  padding-left: 10px;
+  position:absolute;
+  transition: all .3s ease;
+  opacity: 0;
+  background-color: #eeeeee;
+  transform: translate(15px);
+}
+
+.text{
+  color:black;
+  top: 50px;
+  text-align:center;
+  font-size: 18px;
+}
+
+.image {
+  display:flex;
+}
+
+.christina_10 {
+  height: 100%;
+  width: 0;
+  bottom: 0;
+  left: 0;
+}
+.container:hover .christine_10{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
 }
