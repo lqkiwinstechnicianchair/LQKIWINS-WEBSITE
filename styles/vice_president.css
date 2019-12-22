@@ -1,0 +1,92 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.president {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Century Gothic";
+  background-color: #30D5C8;
+  font-weight: 100px;
+  padding: 25px 0px 0px 0px;
+}
+
+.facts {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 100px;
+  grid-template-rows: auto;
+  grid-template-columns: 410px 410px;
+  text-align:left;
+  padding: 25px 0px 25px 0px;
+}
+
+.title {
+  font-family: "Hanson Bold";
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+.section {
+    background-color: #48746E;
+    min-width: 100vw;
+    position:relative;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.subtitle {
+  font-family: "Hanson Bold";
+  font-size: 48px;
+  color: #ADD8E6;
+  font-weight: bold;
+}
+
+.info {
+  padding: 10px 480px 10px 480px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+
+.question {
+  font-family: "Hanson Bold";
+  font-weight:bold;
+  font-size: 24px;
+  color: white;
+}
+
+p {
+  color: black;
+  font-family: "Century Gothic";
+}
