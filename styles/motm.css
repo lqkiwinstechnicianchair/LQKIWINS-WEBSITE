@@ -1,0 +1,88 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.motm {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  color:white;
+  background-color:#356789;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.blue {
+    background-color: #00aeef;
+    min-width: 100vw;
+    position:relative;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 120px 120px 120px 120px 120px 120px;
+  grid-row-gap: 20px;
+  padding: 25px 200px 75px 0px;
+}
+button {
+  color:white;
+  background-color: #003366;
+  border-color: #003366;
+  border-width: thick;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.members {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: 300px 480px;
+  text-align:left;
+  grid-column-gap: 25px;
+  padding: 25px 0px 25px 0px;
+}
+
+.month {
+  text-align: center;
+  font-size: 24px;
+}
+
+.subtitle{
+  text-align: center;
+  font-family: "Hanson Bold";
+  font-size: 48px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+
+.image {
+  padding-left:500px;
+}
