@@ -30,7 +30,7 @@ h10 {
   text-align: center;
   width: 100%;
   color: white;
-  font-size: 18px;
+  font-size: 13px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #0f52ba;
@@ -49,6 +49,31 @@ h10 {
   position: relative;
 }
 
+.class {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 25px 25px 25px 25px;
+  grid-row-gap: 25px;
+  padding: 25px 200px 75px 0px;
+}
+
+.mary2010 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .mary2010{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.container {
+  position: relative;
+}
+
 .overlay{
   padding-left: 10px;
   position:absolute;
@@ -58,24 +83,816 @@ h10 {
   transform: translate(15px);
 }
 
-.text{
-  color:black;
-  top: 50px;
-  text-align:center;
-  font-size: 18px;
-}
-
 .image {
   display:flex;
+  border-width: 100px;
+  border-color: red;
 }
 
-.christina_10 {
+.cindy2010 {
   height: 100%;
   width: 0;
-  bottom: 0;
+  top: 0;
   left: 0;
 }
-.container:hover .christine_10{
+.container:hover .cindy2010{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.christina2010 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .christina2010{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.christine2010 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .christine2010{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.subtitle{
+  font-weight: bold;
+  font-size: 48px;
+  padding-top: 25px;
+  font-family: "Century Gothic";
+}
+
+.kelly2011 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kelly2011{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.brian2011 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .brian2011{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.joleen2011 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .joleen2011{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.samantha2011 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .samantha2011{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.anna2011 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .anna2011{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.nha2011 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .nha2011{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.kellytran2011 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kellytran2011{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.david2012 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .david2012{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.tina2012 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .tina2012{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.diane2012 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .diane2012{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.katy2012 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .katy2012{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.ann2012 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .ann2012{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.thaoly2012 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .thaoly2012{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.kim2012 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kim2012{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.christopher2013 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .christopher2013{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.peter2013 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .peter2013{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.vu2013 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .vu2013{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.anthonytran2013 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .anthonytran2013{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.douglas2013 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .douglas2013{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.kent2013 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kent2013{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.anthonypham2013 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .anthonypham2013{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.halena2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .halena2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.jessicatran2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jessicatran2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.anthony2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .anthony2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.christy2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .christy2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.jessicavo2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jessicavo2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.monique2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .monique2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.vy2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .vy2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.jenny2014 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jenny2014{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.jennifernguyen2015 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jennifernguyen2015{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.shuczin2015 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .shuczin2015{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.yenyen2015 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .yenyen2015{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.christopher2015 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .christopher2015{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.allen2015 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .allen2015{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.jenniferngo2015 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jenniferngo2015{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.soros2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .soros2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.tracey2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .tracey2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.katherine2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .katherine2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.megan2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .megan2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.brenda2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .brenda2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.cindy2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .cindy2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.vy2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .vy2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.kevin2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kevin2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.tiffany2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .tiffany2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.alina2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .alina2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.athena2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .athena2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.kenny2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kenny2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.jamie2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jamie2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.jennifer2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jennifer2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.rick2016 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .rick2016{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.lina2017 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .lina2017{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.alvin2017 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .alvin2017{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.tracy2017 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .tracy2017{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.sammy2017 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .sammy2017{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.dana2017 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .dana2017{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.thanh2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .thanh2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.thao2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .thao2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.kimberly2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kimberly2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.brooke2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .brooke2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.darlene2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .darlene2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.adela2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .adela2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.nhung2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .nhung2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.larry2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .larry2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.victor2018 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .victor2018{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.benjamin2019 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .benjamin2019{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.adriane2019 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .adriane2019{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.sandra2019 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .sandra2019{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.daisy2019 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .daisy2019{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+.britney2019 {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .britney2019{
   opacity: 0.75;
   width: 200px;
   color:black;
