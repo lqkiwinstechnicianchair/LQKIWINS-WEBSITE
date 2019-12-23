@@ -1,0 +1,115 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.home {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  color:white;
+  background-color:#003366;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.red {
+  background-color: #c41230;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.yellow {
+  background-color: #fed450;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #003366;
+}
+
+.light_blue {
+  background-color: #00aeef;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  color:#c41230;
+  padding-bottom: 25px;
+}
+
+.baby_blue {
+  background-color: #89cff0;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+}
+
+.orange {
+  background-color: #f58025;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-top: 25px;
+}
+
+p {
+  font-size: 24px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.subtitle {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.motm {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: -100px;
+  grid-template-rows: auto;
+  grid-template-columns: 500px 500px;
+  text-align:center;
+  padding: 25px 0px 25px 0px;
+}
+
+.hours {
+  color: #fed450;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+video {
+  background-color: black;
+}

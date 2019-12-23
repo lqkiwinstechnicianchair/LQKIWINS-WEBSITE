@@ -1,0 +1,22 @@
+p {
+  position:absolute;
+  color:white;
+  font-family: "Century Gothic";
+  font-size:80px;
+  text-align: center;
+  padding: 25px 400px 25px 400px;
+}
+
+img {
+  position:absolute;
+}
+
+.enter {
+  margin-top:60px;
+  opacity: 1;
+}
+
+.logos {
+  padding-left: 85%;
+  padding-top: 2.5%;
+}

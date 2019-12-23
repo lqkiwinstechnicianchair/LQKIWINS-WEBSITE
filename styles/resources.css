@@ -1,0 +1,85 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.home {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  color:white;
+  background-color:#003366;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.teal {
+  background-color: #00b4a3;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.title {
+  font-size: 60px;
+  font-family: "Hanson Bold";
+  font-weight: bold;
+  color: white;
+}
+
+.container1 {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.container2 {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 500px 500px;
+  text-align: center;
+}
+
+p {
+  color: black;
+  max-width: 1000px;
+  text-align: center;
+  margin:auto;
+  font-size: 24px;
+  color: white;
+
+}
+
+.grid-item {
+  text-align: center;
+  margin:
+}
+
+p:hover {
+  color: #fed450;
+}

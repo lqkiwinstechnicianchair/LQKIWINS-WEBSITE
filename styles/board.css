@@ -1,0 +1,299 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.board {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  color:white;
+  background-color:#356789;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.red {
+  background-color: #c41230;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.yellow {
+  background-color: #fed450;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.blue {
+  background-color: #356789;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+}
+
+.orange {
+  background-color: #f58025;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.exec {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 25px 25px 25px 25px 25px;
+  padding: 25px 200px 75px 0px;
+}
+
+.creative {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 25px 25px 25px 25px 25px;
+  padding: 25px 200px 75px 0px;
+}
+
+.rep {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 25px 25px 25px 25px 25px;
+  padding: 25px 200px 75px 0px;
+}
+p {
+  color: white;
+  max-width: 1000px;
+  text-align: center;
+  margin:auto;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 64px;
+  font-family: "Hanson bold";
+}
+
+.image {
+  display:flex;
+}
+.container {
+  position: relative;
+}
+
+.overlay{
+  padding-left: 10px;
+  position:absolute;
+  transition: all .3s ease;
+  opacity: 0;
+  background-color: #eeeeee;
+  transform: translate(15px);
+}
+
+.text{
+  color:black;
+  top: 50px;
+  text-align:center;
+  font-size: 18px;
+}
+
+.kimberly {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .kimberly{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.johnny {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .johnny{
+  opacity: 0.75;
+  width: 200px;
+  color:black;
+}
+
+.subtitle {
+  color: white;
+  font-family: "Hanson Bold";
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.gretchen {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .gretchen{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.diane {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .diane{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.jessica {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jessica{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.evan {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .evan{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.nicole {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .nicole{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.julia {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .julia{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.catherine {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .catherine{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.tommy {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .tommy{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.nhu {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .nhu{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.jenny {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jenny{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.jade {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .jade{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.hanh {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .hanh{
+  opacity: 0.75;
+  width: 200px;
+}
+
+.trina {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.container:hover .trina{
+  opacity: 0.75;
+  width: 200px;
+}

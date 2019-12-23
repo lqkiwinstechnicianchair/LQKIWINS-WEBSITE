@@ -1,0 +1,55 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.about {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  color:white;
+  background-image: url('../assets/images/about.jpg');
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.title {
+  font-size: 60px;
+  font-family: "Hanson Bold";
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  max-width: 1000px;
+  text-align: center;
+  margin:auto;
+  font-size: 24px;
+  color: white;
+}
+
+.section {
+  padding-top: 700px;
+}
