@@ -9,3 +9,6 @@
     font-family: "Century Gothic";
     line-height: 125px;
 }
+.nav-link:hover {
+  color: #fed450;
+}

@@ -8,6 +8,9 @@
     font-size: 18px;
     font-family: "Century Gothic";
 }
+.nav-link:hover {
+  color: #fed450;
+}
 hr{
   height: 1px;
   color: #00aeef;
