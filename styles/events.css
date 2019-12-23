@@ -1,0 +1,68 @@
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
+
+.nav-link {
+    color: #00aeef;
+    display: flex;
+    font-size: 18px;
+    font-family: "Century Gothic";
+}
+hr{
+  height: 1px;
+  color: #00aeef;
+  background-color: #00aeef;
+  border: none;
+}
+
+.events {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 18px;
+  color:white;
+  background-color:#003366;
+}
+
+.end {
+  color: #00aeef;
+  text-align: center;
+  background-color: white;
+}
+
+h10 {
+  padding: 35px;
+}
+
+.baby_blue {
+  background-color: #89cff0;
+  min-width: 100vw;
+  position:relative;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.title {
+  font-size: 60px;
+  font-family: "Hanson Bold";
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  max-width: 1000px;
+  text-align: center;
+  margin:auto;
+  font-size: 24px;
+  color: white;
+}
+
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-column-gap: 100px;
+  grid-template-columns: 500px 500px;
+  text-align: center;
+}
