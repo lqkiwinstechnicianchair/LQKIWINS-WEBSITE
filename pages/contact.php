@@ -23,14 +23,14 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto">
         <a class="navbar-brand" href="#">
-          <img src="/assets/images/logo.webp">
+          <img src="/assets/images/logo.jpg">
         </a>
         <li class="nav-item">
-          <a class="nav-link" href="#"><hr>Home<hr></a>
+          <a class="nav-link" href="/pages/home.html"><hr>Home<hr></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" href="/pages/about.html" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>About<hr>
           </a>
@@ -39,12 +39,12 @@
             <a class="dropdown-item" href="/pages/mission.html">Our Mission</a>
             <a class="dropdown-item" href="/pages/projects.html">Our Projects</a>
             <a class="dropdown-item" href="/pages/division.html">Jet Division</a>
-            <a class="dropdown-item" href="#">Our Board</a>
+            <a class="dropdown-item" href="/pages/board.html">Our Board</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+          <a class="nav-link" href="/pages/events.html" id="navbarDropdownMenuLink"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>Events<hr>
           </a>
@@ -54,21 +54,21 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+          <a class="nav-link" href="/pages/resources.html" id="navbarDropdownMenuLink"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>Resources<hr>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="/pages/hour_log.html">Hour Log</a>
-            <a class="dropdown-item" href="#">Cheers</a>
+            <a class="dropdown-item" href="/pages/cheer.html">Cheers</a>
             <a class="dropdown-item" href="/pages/membership.html">Membership Forms</a>
             <a class="dropdown-item" href="/pages/newsletter.html">Newsletters</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+          <a class="nav-link" href="/pages/recognition.html" id="navbarDropdownMenuLink"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>Recognition<hr>
           </a>
