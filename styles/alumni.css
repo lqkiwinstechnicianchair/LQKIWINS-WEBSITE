@@ -20,6 +20,7 @@ hr{
   color: #00aeef;
   text-align: center;
   background-color: white;
+  font-size:18px;
 }
 
 h10 {
@@ -900,4 +901,20 @@ h10 {
 
 .title {
   font-size: 100px;
+}
+
+.yellow {
+    background-color: #fed450;
+    min-width: 100vw;
+    position:relative;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.blue {
+    background-color: #003366;
+    min-width: 100vw;
+    position:relative;
+    text-align: center;
+    padding-top: 25px;
 }

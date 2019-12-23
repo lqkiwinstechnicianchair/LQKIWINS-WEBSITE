@@ -30,10 +30,10 @@ h10 {
   text-align: center;
   width: 100%;
   color: white;
-  font-size: 18px;
+  font-size: 24px;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #0f52ba;
+  background-color: #1c3664;
   font-family: "Century Gothic";
   font-weight: 100px;
 }
@@ -42,7 +42,7 @@ h10 {
   padding: 0px 1000px 0px 400px;
 }
 
-input[type=text], select, textarea {
+input[type=text], select, textarea, input[type=email], input[type=subject] {
   width: 100%;
   padding: 5px;
   border: 5px solid #003366;
@@ -65,5 +65,28 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
+  background-color: #fed450;
+  color: #003366;
+}
+
+.white {
   background-color: white;
+  padding-bottom: 25px;
+  color:#003366;
+  padding-top:25px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 48px;
+}
+
+.info {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 100px;
+  grid-template-rows: auto;
+  grid-template-columns: 410px 410px;
+  text-align:left;
+  padding: 25px 0px 25px 0px;
 }
