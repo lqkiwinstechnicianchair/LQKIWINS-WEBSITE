@@ -50,8 +50,8 @@ h10 {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 240px 240px 240px 240px;
-  padding-left: 465px;
-  padding-right: 465px;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 p {
