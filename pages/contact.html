@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hour Log | La Quinta KIWIN'S</title>
+  <title>Contact | La Quinta KIWIN'S</title>
 
   <!-- Import CSS -->
   <link rel="stylesheet"
@@ -86,7 +86,14 @@
   <!-- Contact Page -->
   <div class="contact">
     <h3>Contact Form</h3>
-
+  <main>
+    <form class="contact-form" action="contactform.php" method="php">
+      <input type="text" name="name" placeholder="Full name">
+      <input type="text" name="mail" placeholder="Your Email">
+      <input type="text" name="subject" placeholder="Subject">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit" name="submit">Submit</button>
+  </main>
     <div class="container">
       <form id="contact-form" method="post" action="contact-form.php">
         <input type="text" id="name" name="name" placeholder="Name *" required>
