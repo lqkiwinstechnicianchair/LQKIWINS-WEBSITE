@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hour Log | La Quinta KIWIN'S</title>
+  <title>Contact | La Quinta KIWIN'S</title>
 
   <!-- Import CSS -->
   <link rel="stylesheet"
@@ -23,14 +23,14 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto">
         <a class="navbar-brand" href="#">
-          <img src="/assets/images/logo.webp">
+          <img src="/assets/images/logo.jpg">
         </a>
         <li class="nav-item">
-          <a class="nav-link" href="#"><hr>Home<hr></a>
+          <a class="nav-link" href="/pages/home.html"><hr>Home<hr></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" href="/pages/about.html" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>About<hr>
           </a>
@@ -39,12 +39,12 @@
             <a class="dropdown-item" href="/pages/mission.html">Our Mission</a>
             <a class="dropdown-item" href="/pages/projects.html">Our Projects</a>
             <a class="dropdown-item" href="/pages/division.html">Jet Division</a>
-            <a class="dropdown-item" href="#">Our Board</a>
+            <a class="dropdown-item" href="/pages/board.html">Our Board</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+          <a class="nav-link" href="/pages/events.html" id="navbarDropdownMenuLink"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>Events<hr>
           </a>
@@ -54,21 +54,21 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+          <a class="nav-link" href="/pages/resources.html" id="navbarDropdownMenuLink"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>Resources<hr>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="/pages/hour_log.html">Hour Log</a>
-            <a class="dropdown-item" href="#">Cheers</a>
+            <a class="dropdown-item" href="/pages/cheer.html">Cheers</a>
             <a class="dropdown-item" href="/pages/membership.html">Membership Forms</a>
             <a class="dropdown-item" href="/pages/newsletter.html">Newsletters</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-            role="button" data-toggle="dropdown" aria-haspopup="true"
+          <a class="nav-link" href="/pages/recognition.html" id="navbarDropdownMenuLink"
+            role="button" aria-haspopup="true"
             aria-expanded="false">
             <hr>Recognition<hr>
           </a>
@@ -86,16 +86,14 @@
   <!-- Contact Page -->
   <div class="contact">
     <h3>Contact Form</h3>
-
-    <div class="container">
-      <form id="contact-form" method="post" action="contact-form.php">
-        <input type="text" id="name" name="name" placeholder="Name *" required>
-        <input type="text" id="email" name="email" placeholder="Email *" required>
-        <input type="text" id="subject" name="subject" placeholder="Subject ">
-        <textarea id="message" name="message" placeholder="Message *" style="height:200px" required></textarea>
-        <button type="submit" name="submit">Submit</button>
-      </form>
-    </div>
+  <main>
+    <form class="contact-form" action="contact-form.php" method="php">
+      <input type="text" name="name" placeholder="Full name">
+      <input type="text" name="mail" placeholder="Your Email">
+      <input type="text" name="subject" placeholder="Subject">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit" name="submit">Submit</button>
+  </main>
   </div>
 
   <!-- Credits -->
