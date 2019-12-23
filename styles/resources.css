@@ -15,57 +15,54 @@ hr{
   border: none;
 }
 
-.mission {
+.home {
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
   font-family: "Century Gothic";
   font-size: 18px;
+  color:white;
+  background-color:#003366;
 }
 
 .end {
   color: #00aeef;
   text-align: center;
+  background-color: white;
 }
 
 h10 {
   padding: 35px;
 }
 
-.red {
-  background-color: #c41230;
+.teal {
+  background-color: #00b4a3;
   min-width: 100vw;
   position:relative;
   text-align: center;
-}
-
-h1 {
-  color: #87CEEB;
-}
-
-p {
-  color: black;
-  max-width: 1000px;
-  text-align: center;
-  margin:auto;
-}
-
-.motto {
-  color: #003366;
-  font-size: 40px;
+  padding-bottom: 25px;
 }
 
 .title {
-  font-size: 64px;
-  color: #87CEEB;
+  font-size: 60px;
+  font-family: "Hanson Bold";
   font-weight: bold;
+  color: white;
 }
 
-.goals {
+.container1 {
   display: grid;
   justify-content: space-evenly;
   grid-template-rows: auto;
-  grid-template-columns: 240px 240px 240px 240px;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.container2 {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-rows: auto;
+  grid-template-columns: 500px 500px;
+  text-align: center;
 }
 
 p {
@@ -73,18 +70,16 @@ p {
   max-width: 1000px;
   text-align: center;
   margin:auto;
+  font-size: 24px;
+  color: white;
+
 }
 
-.values {
-  display: grid;
-  justify-content: space-evenly;
-  grid-template-rows: auto;
-  grid-template-columns: 240px 240px 240px 240px;
+.grid-item {
+  text-align: center;
+  margin:
 }
 
-.ideals {
-  display: grid;
-  justify-content: space-evenly;
-  grid-template-rows: auto;
-  grid-template-columns: 240px 240px 240px;
+p:hover {
+  color: #fed450;
 }
